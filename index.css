@@ -1,50 +1,60 @@
-   *body{
-    margin: 0;
-    display: grid;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: aliceblue;
     place-items: center;
+    margin: auto;
 }
 
-header{
-    background-color: rgb(31, 32, 31)  ;
+header {
+    background-color: rgb(31, 32, 31);
     color: aliceblue;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     background-color: #111;
 }
 
-nav li  {
+nav li {
     text-align: center;
-   font-family: 'Courier New', Courier, monospace;  
-   display: inline-block;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+
 }
 
-nav ul li a{
+nav ul li a {
     display: inline;
     text-decoration: none;
-    color: blue;
-    background-color: yellowgreen;
+    color: rgb(191, 194, 28);
+    background-color: rgb(23, 150, 189);
     padding: 15px;
     cursor: pointer;
     margin: 45px;
+    border-style: solid;
 }
 
-section{
+section {
     text-align: center;
     text-decoration: none;
-    list-style:none;
+    list-style: none;
 }
 
-footer{
+footer {
     background-color: #111;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+
+

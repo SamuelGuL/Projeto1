@@ -1,7 +1,44 @@
-.conteiner{
+
+*body {
+    margin: auto;
+    display: grid;
+    place-items: center;
+    
+}
+
+header {
+    background-color: rgb(31, 32, 31);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+}
+
+nav li {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline;
+    text-decoration: none;
+    color: blue;
+    background-color: yellowgreen;
+    padding: 15px;
+    cursor: pointer;
+    margin: 45px;
+}
+
+.conteiner {
     max-width: 800px;
-    margin: 0 auto;  
-    padding: 20px;  
+    margin: 0 auto;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
@@ -9,20 +46,20 @@
     margin-top: 20px;
 }
 
-.conteiner figure{
+.conteiner figure {
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
 
-.conteiner img{
+.conteiner img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
 }
 
-.conteiner figure::after{
+.conteiner figure::after {
     content: '';
     position: absolute;
     top: 0;
@@ -34,12 +71,12 @@
     transition: opacity 0.3 ease;
 }
 
-.conteiner figure:hover::after{
+.conteiner figure:hover::after {
     opacity: 0.5;
 }
 
-.conteiner figcaption{
-    position: absolute; 
+.conteiner figcaption {
+    position: absolute;
     bottom: -50px;
     left: 0;
     width: 100%;
@@ -50,6 +87,6 @@
     transition: bottom 0.3s ease;
 }
 
-.conteiner figure:hover figcaption{
+.conteiner figure:hover figcaption {
     bottom: 0;
 }
