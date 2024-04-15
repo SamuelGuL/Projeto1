@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-    background-image: url(midia/samuel-drift.jpg); 
+    background-image: url(samuel-drift.jpg); 
     background-repeat: no-repeat;
     background-position: -100;
     place-items: center;
@@ -23,8 +21,8 @@ nav {
 
 nav li {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
 }
 
 nav ul li a {
@@ -42,7 +40,6 @@ section {
     text-align: center;
     text-decoration: none;
     list-style: none;
-
 }
 
 footer {
@@ -54,6 +51,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-
-
