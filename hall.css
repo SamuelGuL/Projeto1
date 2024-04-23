@@ -53,6 +53,7 @@ nav ul li a {
     overflow: hidden;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    
 }
 
 .conteiner img {
@@ -91,4 +92,13 @@ nav ul li a {
 
 .conteiner figure:hover figcaption {
     bottom: 0;
+}
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
